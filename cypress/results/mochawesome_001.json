@@ -1,0 +1,124 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-07-24T07:59:11.263Z",
+    "end": "2025-07-24T07:59:44.521Z",
+    "duration": 33258,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e9f16180-5e8a-45fb-8fe6-b4a319e41eff",
+      "title": "",
+      "fullFile": "cypress\\e2e\\mes tests\\acceuil.cy.js",
+      "file": "cypress\\e2e\\mes tests\\acceuil.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "30928c30-87ad-49b4-9869-b0696bdd66f3",
+          "title": "Puma Homepage Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "tester si le logo est visible",
+              "fullTitle": "Puma Homepage Tests tester si le logo est visible",
+              "timedOut": null,
+              "duration": 24697,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('.home-banner').should('be.visible');\ncy.wait(3000);",
+              "err": {},
+              "uuid": "59c5c917-3b0f-4734-bc41-a60436ff6994",
+              "parentUUID": "30928c30-87ad-49b4-9869-b0696bdd66f3",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "tester si les cartes de catégorie sont visibles",
+              "fullTitle": "Puma Homepage Tests tester si les cartes de catégorie sont visibles",
+              "timedOut": null,
+              "duration": 5817,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('.category-cards').should('be.visible');\ncy.wait(1000);\ncy.get('.banner-image').should('be.visible');",
+              "err": {},
+              "uuid": "c04784ad-0122-4b4c-9a02-c3d88413ef23",
+              "parentUUID": "30928c30-87ad-49b4-9869-b0696bdd66f3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "59c5c917-3b0f-4734-bc41-a60436ff6994",
+            "c04784ad-0122-4b4c-9a02-c3d88413ef23"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 30514,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -23,6 +23,6 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
-Cypress.Screenshot.defaults({
-  capture: 'runner'
-});
+// cypress.Screenshot.defaults({
+//     capture : 'runner',
+// });
